@@ -21,10 +21,6 @@ func longRunningTask(ctx context.Context, id int, wg *sync.WaitGroup) {
 	}
 }
 
-func RunTask() {
-
-}
-
 func main() {
 	rand.Seed(time.Now().UnixNano())
 	var wg sync.WaitGroup
